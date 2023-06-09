@@ -9,6 +9,7 @@
 * [Feature Overview: Dive Deep into the Capabilities of MicrobiomeStat 🧪🔬🧫](introduction/feature-overview-dive-deep-into-the-capabilities-of-microbiomestat.md)
 * [MicrobiomeStat Versus the Competition: A Comparative Overview ⚖️🥊](introduction/microbiomestat-versus-the-competition-a-comparative-overview/README.md)
   * [How Does MicrobiomeStat Measure Up? A Longitudinal Package Comparison 📊🔍⚖️](introduction/microbiomestat-versus-the-competition-a-comparative-overview/how-does-microbiomestat-measure-up-a-longitudinal-package-comparison.md)
+  * [How Does MicrobiomeStat Stand Out? A Comprehensive Package Comparison 📚🔍⚖️](introduction/microbiomestat-versus-the-competition-a-comparative-overview/how-does-microbiomestat-stand-out-a-comprehensive-package-comparison.md)
 
 ## identity
 
