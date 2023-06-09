@@ -4,6 +4,8 @@
 **Good to know:** you can embed a Storybook canvas by simple pasting the canvas link and hitting enter.
 {% endhint %}
 
+<figure><img src="../.gitbook/assets/Workflow.png" alt=""><figcaption></figcaption></figure>
+
 An Icon is a piece of visual element, but we must ensure its accessibility while using it. It can have **2 purposes**:
 
 * _**decorative only**_: for example, it illustrates a label next to it. We must ensure that it is ignored by screen readers, by setting aria-hidden attribute (ex: `<Icon icon="check" aria-hidden />`)

@@ -11,15 +11,29 @@
   * [How Does MicrobiomeStat Measure Up? A Longitudinal Package Comparison 📊🔍⚖️](introduction/microbiomestat-versus-the-competition-a-comparative-overview/how-does-microbiomestat-measure-up-a-longitudinal-package-comparison.md)
   * [How Does MicrobiomeStat Stand Out? A Comprehensive Package Comparison 📚🔍⚖️](introduction/microbiomestat-versus-the-competition-a-comparative-overview/how-does-microbiomestat-stand-out-a-comprehensive-package-comparison.md)
 
-## identity
+## Installation Guide
 
-* [Logos](identity/logos.md)
-* [Colors](identity/colors.md)
-* [Typography](identity/typography.md)
-* [Imagery](identity/imagery.md)
+* [Kick-start Your Journey: The MicrobiomeStat Installation Guide 🚀🧭](installation-guide/kick-start-your-journey-the-microbiomestat-installation-guide.md)
 
-## Components
+## Cross-Sectional Study Design
 
-* [Icons](components/icons.md)
-* [Buttons](components/buttons.md)
-* [Inputs](components/inputs.md)
+* [Unraveling Cross-Sectional Studies with MicrobiomeStat 🌐🔬](cross-sectional-study-design/unraveling-cross-sectional-studies-with-microbiomestat.md)
+* [Cross-Sectional Snapshot: Alpha Diversity Analysis with MicrobiomeStat 🔄🔬](cross-sectional-study-design/cross-sectional-snapshot-alpha-diversity-analysis-with-microbiomestat.md)
+* [Cross-Sectional Exploration: Beta Diversity Analysis with MicrobiomeStat 🗺️🔬](cross-sectional-study-design/cross-sectional-exploration-beta-diversity-analysis-with-microbiomestat.md)
+* [Cross-Sectional Investigation: Taxa Analysis with MicrobiomeStat 🧬🔬](cross-sectional-study-design/cross-sectional-investigation-taxa-analysis-with-microbiomestat.md)
+
+## Paired Samples Analysis
+
+* [Icons](paired-samples-analysis/icons.md)
+* [Buttons](paired-samples-analysis/buttons.md)
+* [Inputs](paired-samples-analysis/inputs.md)
+
+## Longitudinal Study Design
+
+* [Icons](longitudinal-study-design/icons.md)
+* [Buttons](longitudinal-study-design/buttons.md)
+* [Inputs](longitudinal-study-design/inputs.md)
+
+***
+
+* [Page 1](page-1.md)
