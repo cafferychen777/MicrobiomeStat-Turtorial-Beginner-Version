@@ -19,7 +19,3 @@ description: >-
 **📤 Data Export**: MicrobiomeStat allows users to **export their analysis results** in diverse formats, ideal for subsequent analysis in other statistical software or for direct publication. 🗂️📁
 
 **🔄 Ongoing Development**: MicrobiomeStat is a **dynamic tool**. Our dedicated team continually works to refine existing features and introduce new functionalities, ensuring that you stay ahead in the rapidly evolving field of microbiome research. ⚙️🛠️
-
-
-
-##
