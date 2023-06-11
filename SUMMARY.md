@@ -11,9 +11,19 @@
   * [How Does MicrobiomeStat Measure Up? A Longitudinal Package Comparison 📊🔍⚖️](introduction/microbiomestat-versus-the-competition-a-comparative-overview/how-does-microbiomestat-measure-up-a-longitudinal-package-comparison.md)
   * [How Does MicrobiomeStat Stand Out? A Comprehensive Package Comparison 📚🔍⚖️](introduction/microbiomestat-versus-the-competition-a-comparative-overview/how-does-microbiomestat-stand-out-a-comprehensive-package-comparison.md)
 
-## Installation Guide
+## Setting Up MicrobiomeStat: Installation and Data Preparation
 
-* [Kick-start Your Journey: The MicrobiomeStat Installation Guide 🚀🧭](installation-guide/kick-start-your-journey-the-microbiomestat-installation-guide.md)
+* [Kick-start Your Journey: The MicrobiomeStat Installation Guide 🚀🧭](setting-up-microbiomestat-installation-and-data-preparation/kick-start-your-journey-the-microbiomestat-installation-guide.md)
+* [Laying the Foundation: Creating the MicrobiomeStat Data Object 🧱📚](setting-up-microbiomestat-installation-and-data-preparation/laying-the-foundation-creating-the-microbiomestat-data-object/README.md)
+  * [Building MicrobiomeStat from Matrix and Data.frame 🏗️📘](setting-up-microbiomestat-installation-and-data-preparation/laying-the-foundation-creating-the-microbiomestat-data-object/building-microbiomestat-from-matrix-and-data.frame.md)
+  * [Navigating Data from Phyloseq into MicrobiomeStat 🌐🔄](setting-up-microbiomestat-installation-and-data-preparation/laying-the-foundation-creating-the-microbiomestat-data-object/navigating-data-from-phyloseq-into-microbiomestat.md)
+  * [Importing Data from QIIME2 into MicrobiomeStat 📥🚀](setting-up-microbiomestat-installation-and-data-preparation/laying-the-foundation-creating-the-microbiomestat-data-object/importing-data-from-qiime2-into-microbiomestat.md)
+  * [Integrating Data from DADA2 into MicrobiomeStat 🧬🔀](setting-up-microbiomestat-installation-and-data-preparation/laying-the-foundation-creating-the-microbiomestat-data-object/integrating-data-from-dada2-into-microbiomestat.md)
+  * [Transferring Data from BIOM into MicrobiomeStat 📦🌊](setting-up-microbiomestat-installation-and-data-preparation/laying-the-foundation-creating-the-microbiomestat-data-object/transferring-data-from-biom-into-microbiomestat.md)
+  * [Fetching Data from Mothur into MicrobiomeStat 📁🚢](setting-up-microbiomestat-installation-and-data-preparation/laying-the-foundation-creating-the-microbiomestat-data-object/fetching-data-from-mothur-into-microbiomestat.md)
+  * [Loading DGEList Data into MicrobiomeStat 🧩🔬](setting-up-microbiomestat-installation-and-data-preparation/laying-the-foundation-creating-the-microbiomestat-data-object/loading-dgelist-data-into-microbiomestat.md)
+  * [Incorporating DESeqDataSet into MicrobiomeStat 🎯🔍](setting-up-microbiomestat-installation-and-data-preparation/laying-the-foundation-creating-the-microbiomestat-data-object/incorporating-deseqdataset-into-microbiomestat.md)
+  * [Inputting SummarizedExperiment into MicrobiomeStat 🧭⚙️](setting-up-microbiomestat-installation-and-data-preparation/laying-the-foundation-creating-the-microbiomestat-data-object/inputting-summarizedexperiment-into-microbiomestat.md)
 
 ## Cross-Sectional Study Design
 
