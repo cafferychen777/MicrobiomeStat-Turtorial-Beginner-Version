@@ -34,16 +34,13 @@
 
 ## Paired Samples Analysis
 
-* [Icons](paired-samples-analysis/icons.md)
-* [Buttons](paired-samples-analysis/buttons.md)
-* [Inputs](paired-samples-analysis/inputs.md)
+* [Unraveling Paired Samples: Alpha Diversity Analysis 🔄🧪](paired-samples-analysis/unraveling-paired-samples-alpha-diversity-analysis.md)
+* [Navigating Paired Samples: Beta Diversity Analysis 🌐🧪](paired-samples-analysis/navigating-paired-samples-beta-diversity-analysis.md)
+* [Inspecting Paired Samples: Taxa Analysis 🧬🔍](paired-samples-analysis/inspecting-paired-samples-taxa-analysis.md)
 
 ## Longitudinal Study Design
 
-* [Icons](longitudinal-study-design/icons.md)
-* [Buttons](longitudinal-study-design/buttons.md)
-* [Inputs](longitudinal-study-design/inputs.md)
-
-***
-
-* [Page 1](page-1.md)
+* [Grasping Longitudinal Studies: Introduction and Dataset Overview 🌐📅](longitudinal-study-design/grasping-longitudinal-studies-introduction-and-dataset-overview.md)
+* [Chronological Journey: Alpha Diversity Analysis in Longitudinal Studies 🔄📅](longitudinal-study-design/chronological-journey-alpha-diversity-analysis-in-longitudinal-studies.md)
+* [Time Travel in Microbiome: Beta Diversity Analysis in Longitudinal Studies 🌐📅](longitudinal-study-design/time-travel-in-microbiome-beta-diversity-analysis-in-longitudinal-studies.md)
+* [Taxonomic Timelines: Taxa Analysis in Longitudinal Studies 🧬📅](longitudinal-study-design/taxonomic-timelines-taxa-analysis-in-longitudinal-studies.md)
