@@ -34,6 +34,7 @@
 
 ## Paired Samples Analysis
 
+* [Unveiling Paired Samples Analysis: A Comprehensive Guide 🧪🔍](paired-samples-analysis/unveiling-paired-samples-analysis-a-comprehensive-guide.md)
 * [Unraveling Paired Samples: Alpha Diversity Analysis 🔄🧪](paired-samples-analysis/icons.md)
 * [Navigating Paired Samples: Beta Diversity Analysis 🌐🧪](paired-samples-analysis/buttons.md)
 * [Inspecting Paired Samples: Taxa Analysis 🧬🔍](paired-samples-analysis/inputs.md)
