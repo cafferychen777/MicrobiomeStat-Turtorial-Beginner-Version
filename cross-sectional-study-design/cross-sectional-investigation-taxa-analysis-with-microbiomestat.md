@@ -72,7 +72,7 @@ generate_taxa_dotplot_single(
 
 Through this plot, we're able to discern **whether there are significant differences in the average abundance and prevalence of each taxa between our groups** 🔬💡.
 
-Finally, we'll utilize stacked bar plots with the `generate_taxa_barplot_single` function to investigate if there's a difference in species composition across different groups 📊🔍:
+Finally, we'll utilize stacked bar plots with the `generate_taxa_barplot_single` function to investigate if there's a **difference in species composition across different groups** 📊🔍:
 
 ```r
 generate_taxa_barplot_single(
