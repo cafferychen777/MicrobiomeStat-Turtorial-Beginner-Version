@@ -16,7 +16,145 @@ It's all about deciphering patterns in **taxa composition, prevalence, abundance
 
 \------------------------------------------------------------------------------------------
 
-Our next destination 📍 in this analytical journey is **`generate_taxa_barplot_pair()`**. This function unveils two insightful stacked bar plots 📊, painting a vivid picture of taxonomic composition from both individual and group perspectives.
+Before diving into the Differential Abundance Analysis, let's shed some light on two other powerful functions in our analytical toolbox: `generate_taxa_indiv_boxplot_long()` and `generate_taxa_indiv_boxplot_long_v2()`. These functions provide an in-depth visualization analysis for individual taxa.
+
+Let's start with `generate_taxa_indiv_boxplot_long()`:
+
+```r
+generate_taxa_indiv_boxplot_long(
+   data.obj = peerj32.obj,
+   subject.var = "subject",
+   time.var = "time",
+   t0.level = "1",
+   ts.levels = "2",
+   group.var = "group",
+   strata.var = NULL,
+   feature.level = c("Family"),
+   features.plot = NULL,
+   feature.dat.type = "other",
+   top.k.plot = NULL,
+   top.k.func = NULL,
+   Transform = "log",
+   prev.filter = 0.1,
+   abund.filter = 0.1,
+   base.size = 20,
+   theme.choice = "classic",
+   custom.theme = NULL,
+   palette = NULL,
+   pdf = TRUE,
+   file.ann = NULL,
+   pdf.wid = 11,
+   pdf.hei = 8.5
+)
+```
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-13 at 10.29.38.png" alt=""><figcaption><p><strong>Longitudinal Boxplot of Individual Taxa in Paired Samples</strong>: Using the <code>generate_taxa_indiv_boxplot_long()</code> function, we delve into each taxon's variation in abundance between paired samples over time. Each page of the multi-page PDF showcases one taxon, giving a deep, focused insight into the dynamic changes in paired conditions.</p></figcaption></figure>
+
+This function creates a series of boxplots, one for each taxon, and outputs them into a multi-page PDF. Each page gives you a focused look at a single taxon, helping you digest complex data in bite-sized pieces. 📊📑
+
+Next, we have `generate_taxa_indiv_boxplot_long_v2()`:
+
+```r
+generate_taxa_indiv_boxplot_long_v2(
+   data.obj = peerj32.obj,
+   subject.var = "subject",
+   time.var = "time",
+   t0.level = "1",
+   ts.levels = "2",
+   group.var = "group",
+   strata.var = NULL,
+   feature.level = c("Family"),
+   feature.dat.type = "count",
+   features.plot = NULL,
+   top.k.plot = NULL,
+   top.k.func = NULL,
+   Transform = "log",
+   prev.filter = 0.1,
+   abund.filter = 0.1,
+   base.size = 16,
+   theme.choice = "classic",
+   custom.theme = NULL,
+   palette = NULL,
+   pdf = TRUE,
+   file.ann = NULL,
+   pdf.wid = 11,
+   pdf.hei = 8.5
+)
+```
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-13 at 10.32.08.png" alt=""><figcaption><p><strong>Comprehensive Boxplot of Individual Taxa in Paired Samples</strong>: The <code>generate_taxa_indiv_boxplot_long_v2()</code> function creates a combined boxplot of all taxa on one page, allowing for an immediate comparison of abundance variations across paired samples over time. This view is especially beneficial for highlighting taxa that show significant differential abundance, presenting a clear snapshot of the microbiome dynamics in paired samples.</p></figcaption></figure>
+
+{% hint style="info" %}
+🔍 **Hint:** When it comes to controlling the features you wish to visualize, the `features.plot` parameter is your best friend. If it's not NULL, **`abund.filter` and `prev.filter` will be disregarded during the visualization process**, although they will still be considered during computation. This means `features.plot` allows you to **filter the taxa after calculations and just before visualization**, displaying only the taxa listed in `features.plot`. This feature is particularly useful when you want to **visualize only those taxa that show significant changes in a Differential Abundance Analysis (DAA)**. It’s your bridge to effectively linking taxa analysis and DAA! 🌉💡
+{% endhint %}
+
+This function places all taxa onto a single page, providing an overview of all your taxa at once. This can be especially useful for visualizing features with significant differential abundance (<0.05). 🎯📊🔬
+
+Moving forward, we introduce a couple of essential tools for our paired taxa analysis: `generate_taxa_indiv_change_boxplot_pair()` and `generate_taxa_indiv_change_boxplot_pair_v2()`. This pair of functions offer a deep dive into changes in the taxonomic composition at the family level.
+
+The first function, `generate_taxa_indiv_change_boxplot_pair()`, is applied as follows:
+
+```R
+generate_taxa_indiv_change_boxplot_pair(
+   data.obj = peerj32.obj,
+   subject.var = "subject",
+   time.var = "time",
+   group.var = "group",
+   strata.var = NULL,
+   change.base = "1",
+   change.func = "lfc",
+   feature.level = c("Family"),
+   features.plot = NULL,
+   feature.dat.type = "count",
+   top.k.plot = NULL,
+   top.k.func = NULL,
+   prev.filter = 0.1,
+   abund.filter = 0.01,
+   base.size = 20,
+   theme.choice = "bw",
+   custom.theme = NULL,
+   palette = NULL,
+   pdf = TRUE,
+   file.ann = NULL,
+   pdf.wid = 11,
+   pdf.hei = 8.5
+)
+```
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-13 at 10.54.42.png" alt=""><figcaption><p>Individual Taxa Change Boxplot Pair: Crafted by the <code>generate_taxa_indiv_change_boxplot_pair()</code> function, this plot visualizes the changes in taxonomic composition at the family level. The log-fold-change metric gives a clear view of the shifts in abundance over time, offering deeper insight into the dynamics between different conditions.</p></figcaption></figure>
+
+Next, we move onto the second function `generate_taxa_indiv_change_boxplot_pair_v2()`:
+
+```R
+generate_taxa_indiv_change_boxplot_pair_v2(
+   data.obj = peerj32.obj,
+   subject.var = "subject",
+   time.var = "time",
+   group.var = "group",
+   strata.var = NULL,
+   change.base = "1",
+   change.func = "lfc",
+   feature.level = c("Family"),
+   feature.dat.type = "count",
+   features.plot = NULL,
+   top.k.plot = 6,
+   top.k.func = "sd",
+   prev.filter = 0.1,
+   abund.filter = 0.01,
+   base.size = 20,
+   theme.choice = "bw",
+   custom.theme = NULL,
+   palette = NULL,
+   pdf = TRUE,
+   file.ann = "test",
+   pdf.wid = 11,
+   pdf.hei = 8.5
+)
+```
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-13 at 10.56.58.png" alt=""><figcaption><p>Individual Taxa Change Boxplot Pair with Standard Deviation: Created by the <code>generate_taxa_indiv_change_boxplot_pair_v2()</code> function, this plot also illustrates changes in abundance within paired samples. However, the focus is shifted to the top six taxa based on their standard deviation, casting a new light on the microbial dynamics.</p></figcaption></figure>
+
+Our next destination 📍 in this analytical journey is `generate_taxa_barplot_pair()`. This function unveils two insightful stacked bar plots 📊, painting a vivid picture of taxonomic composition from both individual and group perspectives.
 
 ```r
 generate_taxa_barplot_pair(
