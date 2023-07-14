@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🥳 🎉 Welcome to the MicrobiomeStat Tutorial: Your Best Choice for Microbiome Analysis Ever! 🧬🔬](README.md)
+* [🏳⚧ 🎉 Welcome to the MicrobiomeStat Tutorial: Your Best Choice for Microbiome Analysis Ever! 🧬🔬](README.md)
 
 ## INTRODUCTION
 
